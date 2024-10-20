@@ -4,8 +4,6 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         for j in range(i+1,len(nums)):
             if nums[i]+nums[j] == target:
                 return[i, j]
-nums=[2,7,11,156,8,95,4]
-target=164
 print(twoSum(nums,target))
 
             
